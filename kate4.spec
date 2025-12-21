@@ -14,6 +14,7 @@ License: LGPLv2 and LGPLv2+ and GPLv2+
 URL:     https://projects.kde.org/projects/kde/applications/kate
 Source0: http://download.kde.org/stable/%{version}/src/kate-%{version}.tar.xz
 
+BuildRequires:	make
 BuildRequires: kdelibs4-devel >= 4.14
 
 %description
